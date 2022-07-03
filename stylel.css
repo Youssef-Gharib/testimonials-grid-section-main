@@ -1,0 +1,144 @@
+@font-face{
+    font-family: "Barlow Semi Bold";
+    src: url("BarlowSemiCondensed-SemiBold.ttf") format("TrueType");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+main{
+    display: flex;
+    height: 800px;
+    margin: 50px;
+    font-family:"Barlow Semi Bold" ;
+    position: relative
+}
+.right{
+    position: absolute;
+    right: 13px;
+    top: 30px;
+    width: 22%;
+    height: 90%;
+}
+.left{
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+.top,.bottom{
+    display: flex;
+    width: 98%;
+    height: 45%;
+    margin: 0;
+    position: relative;
+}
+.bottom{
+    position: absolute;
+    bottom: 60px;
+}
+
+img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+
+p {
+    opacity: 70%;
+    font-size: 16px;
+}
+h3{
+    opacity: 85%;
+    font-size: 16px;
+}
+h2{
+    margin-bottom: 25px;
+}
+div p{
+    opacity: 42.5%;
+    font-size: 13px;
+}
+.daniel{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: 90%;
+    color: hsl(0, 0%, 100%);
+    border: 2px solid; 
+    width:60%;
+    height: 80%;
+    position: absolute;
+    top:0px;
+}
+.jonathan{
+    background-color:  hsl(217, 19%, 35%) ;
+    color: #fff;
+    width: 25%;
+    right: -3px;
+    height: 80%;
+    position: absolute;
+    top: 2px;
+    
+}
+
+.Patrick{
+    background-color: hsl(219, 29%, 14%);
+    color:#fff;
+    position: absolute;
+    right: -3px;
+    width:60%;
+    height: calc(100% - 70px);
+}
+
+.Jeanette{
+    background-color:hsl(0, 0%, 100%) ;
+    position: absolute;
+    width: 25%;
+    height: calc(100% - 70px);
+    box-shadow:  10px 10px 20px  hsl(0, 1%, 73%)
+}
+
+
+.kira{
+    background-color:hsl(0, 0%, 100%) ;
+    height: 93%;
+    box-shadow:  10px 10px 20px  hsl(0, 1%, 73%);
+    
+}
+
+
+header{
+    display: flex;
+    margin-bottom: 25px;
+    line-height: 1.3 ;
+}
+div{
+    margin-left: 20px;
+}
+.daniel,.Jeanette,.jonathan,.Patrick,.kira{
+    line-height: 1.3 ;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.attribution{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    bottom: 30px;
+}
+.attribution a{ 
+    color: hsl(263, 55%, 52%); 
+    text-decoration: none;
+}
